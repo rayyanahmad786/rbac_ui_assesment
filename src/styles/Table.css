@@ -1,0 +1,33 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  text-align: left;
+  color: black; /* Set text color of td to black */
+}
+
+.table th {
+  background: #f4f4f4;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 0 0.3rem;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: #fff;
+}
